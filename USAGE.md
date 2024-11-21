@@ -1,46 +1,6 @@
-# Instructions for Using the AVAT Platform
+# Getting Started with AVAT
 
-The AVAT platform is designed to be accessible for users across various academic disciplines, providing a robust interface for efficient video annotation. This document outlines the key features of the platform, including user interface details, key bindings, and the process for uploading media and annotating videos.
-
-For a system that spans multiple academic disciplines, ensuring a robust interface allows a person of any experience to efficiently annotate videos. A potential user should be able to identify animals of interest easily and have a method to track them across frames in an easy and efficient manner. For a more efficient workflow, a series of key bindings was implemented to expedite each operation within the platform, therefore allowing unexperienced users to familiarize themselves with a predetermined workflow efficiently.
-
-## Overview
-
-AVAT aims to simplify the video annotation process, allowing users to easily identify and track animals of interest across frames. A significant challenge addressed was conditioning users to adopt a predetermined workflow for increased efficiency, even without prior intensive training on our system.
-
-## Browser Support
-
-The following browsers are supported by the AVAT platform. If you encounter any errors, we recommend using the latest version of Chrome or Firefox, as these have been extensively tested:
-
-- Chrome 49 (release: 2/3/2016)
-- Firefox 50 (release: 11/15/2016)
-- Safari 10 (release: 9/20/2016)
-- Edge 14 (release: 2/18/2016)
-
-## Direct Access (Recommended)
-
-Access AVAT via https://aifarms.github.io/AVAT/.
-
-## Local Deployment (Frontend)
-
-These instructions will help you set up a local copy of the project for development and testing purposes.
-
-### Prerequisites
-
-You will need to have npm, firefox/chrome, and git installed on your system.
-
-### Installing and Building
-
-1. Clone the repository to your desired location:
-   ```bash
-   git clone https://github.com/AIFARMS/AVAT
-2. Install the required node_modules:
-   ```bash
-   npm install
-3. Start the project locally. The website will be accessible at http://localhost:4000/. This command starts the front-end portion of the dashboard:
-   ```bash
-   npm start
-4. To simply access the website, navigate to the build folder and open `index.html`.
+This guide will show you how to use AVAT's front-end functionality.
 
 ## Key Bindings
 
